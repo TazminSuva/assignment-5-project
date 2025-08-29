@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>জরুরি সেবা ডিরেক্টরি</title>
+    <title>Emergency Service</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
@@ -13,7 +13,7 @@
 <div class="bg-white shadow p-3 flex items-center justify-between">
   <div class="flex items-center gap-3">
     <img src="B12-A5-Emergency-Hotline/assets/logo.png" alt="Logo" class="h-10" />
-    <span class="font-semibold text-gray-700 text-lg">Government of Bangladesh</span>
+    <span class="font-semibold text-gray-700 text-lg">Emergency Service</span>
   </div>
 
   <nav class="flex items-center gap-3 text-gray-600 text-sm">
@@ -32,7 +32,7 @@
     </button>
 
     <!-- Extra Button -->
-   <button class="bg-green-600 hover:bg-green-700 text-white px-3 py-1 rounded-xl">2 Copy</button>
+   <button class="bg-green-500 text-white text-sm font-medium px-4 py-1 rounded-full hover:bg-green-600">2 Copy</button>
   </nav>
 </div>
 
@@ -162,6 +162,7 @@
   </svg>
 </button>
 
+
 <script>
 const services = [
     {icon:"B12-A5-Emergency-Hotline/assets/emergency.png", name:"N", desc:"National Emergency", number:"999", smallButton:"A"},
@@ -174,7 +175,7 @@ const services = [
     {icon:"B12-A5-Emergency-Hotline/assets/emergency.png", name:"B", desc:"Brac", number:"16445", smallButton:"N"},
     {icon:"B12-A5-Emergency-Hotline/assets/emergency.png", name:"B", desc:"Bangladesh Railway", number:"163", smallButton:"T"},
 ];
-
+ 
 
 const servicesContainer = document.getElementById('services');
 
@@ -188,7 +189,7 @@ function createServiceCard(service){
     loveBtn.innerHTML = `
       <svg xmlns="http://www.w3.org/2000/svg"
            fill="none"
-           viewBox="0 0 24 24"
+           viewBox="0 0 25 25"
            stroke-width="1.5"
            stroke="currentColor"
            class="w-5 h-5">
